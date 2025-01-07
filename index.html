@@ -3,13 +3,26 @@
   <head>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movida</title>
-    <script type="module" crossorigin src="/movida-page/assets/index-Dg_AXlCb.js"></script>
-    <link rel="stylesheet" crossorigin href="/movida-page/assets/index-CdXo9Zvk.css">
+    <style>
+      html, body { height: 100%; }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body { overflow: hidden; }
+      /* These styles make the root element full-height */
+      #app-root {
+        display: flex;
+        flex: 1 1 100%;
+        height: 100vh;
+      }
+      input {
+        outline: none;
+      }
+    </style>
+    <script type="module" crossorigin src="/movida-page/assets/index-CY5_anMn.js"></script>
+    <link rel="stylesheet" crossorigin href="/movida-page/assets/index-kQJbKSsj.css">
   </head>
   <body>
-    <div id="root"></div>
-
+    <div id="root"></div>
   </body>
 </html>
